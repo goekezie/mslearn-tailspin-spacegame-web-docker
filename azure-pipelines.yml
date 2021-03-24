@@ -17,7 +17,7 @@ stages:
       AZURE_SUBSCRIPTION_ID: '812866e1-7fdb-4a38-abda-bc40d7ffa85e'
       AZURE_WEBAPP_NAME: "tailspin-s-${fix}"
       AZURE_APP_PLAN: 'tailspin-space-game-asp'
-      REGISTRY_NAME: "tailspin-web-${fix}"
+      REGISTRY_NAME: "tailspin${fix}"
 
     steps:
     - task: AzureCLI@2
